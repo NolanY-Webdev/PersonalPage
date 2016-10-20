@@ -1,5 +1,6 @@
 var skipped = false;
 var mainTriggered = false;
+var shifted = false;
 
 $('#typed').typed({
   strings: ['Whois: Nolan Ryan', 'Whois: Bruce Nolan', 'Whois: Nolan Kalani Yee     $^2000 WARNING:^500 STACK OVERFLOW'],
@@ -20,18 +21,32 @@ $(document).ready(function() {
 
 function mainPage() {
   mainTriggered = true;
+  $('.main').hide();
+  $('.main').css({
+    'height': '100vh'
+  });
   $('#typed-fix').hide();
   $('.er5').fadeOut();
   $('.er4').delay(100).fadeOut();
   $('.er3').delay(200).fadeOut();
   $('.er2').delay(300).fadeOut();
   $('.er1').delay(400).fadeOut();
-  $('.text-body').delay(600).fadeOut();
-  $('.title-bar').delay(600).fadeOut();
-  $('.text-editor-wrap').delay(600).fadeOut();
+  setTimeout(function(){
+    if (shifted) {
+      $(".head-wrap").toggleClass("shift-text");
+    }
+  }, 450);
+
+  setTimeout(function(){
+    $(".animatedIntro").attr("id", "floatOffTop");
+  }, 1000);
+
+  $('.text-body').delay(1000).fadeOut();
+  $('.title-bar').delay(1000).fadeOut();
+  $('.text-editor-wrap').delay(1000).fadeOut();
   $('.animatedIntro').delay(1000).fadeOut();
   $('footer').hide();
-  $('.main').delay(2000).append("<div>AND NOW MY PAGE APPEARS</div>");
+  $('.main').delay(2000).append("<div>AND NOW MY PAGE APPEARS</div>").fadeIn();
 }
 
 
@@ -42,7 +57,7 @@ function recursiveHelper(int, max) {
     recursiveAdd(int);
     setTimeout(function() {
       recursiveHelper(int+1, max);
-    }, 1000);
+    }, 700);
   } else {
     $('#typed-fix').typed({
       strings: ['Yep, I see the problem. ^400I\'ll fix it.^200 Just a moment.'],
@@ -84,6 +99,7 @@ function recursiveAdd(int) {
 
 function shift(){
   $(".head-wrap").toggleClass("shift-text");
+  shifted = true;
   terminalHeight();
 }
 
@@ -92,7 +108,7 @@ function terminalHeight(){
   var value = termHeight.text();
   value = parseInt(value);
   setTimeout(function(){
-    if (value < 50){
+    if (value < 100){
       value = value+1;
       this.txtValue = value.toString();
       termHeight.text(this.txtValue);

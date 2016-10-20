@@ -27,19 +27,14 @@ p {
 .animatedIntro {
   width: 100%;
   min-height: 450px;
+  height: 90vh;
   margin: 0 auto 30px;
   padding: 10px 0;
   background: 000000 top center no-repeat fixed;
-  background-size: 100%; }
-  @media screen and (max-width: 1500px) {
-    .header {
-      background-size: auto; } }
-  .header .h1 {
-    margin: 10px 0 20px;
-    font-size: 2.5em;
-    text-align: center;
-    color: #fff;
-    text-shadow: #000 0px 2px 4px; }
+  background-size: 100%;
+  transform: translateY(0);
+  transition: 2s;
+}
 
 .head-wrap {
   margin: 30px auto 30px;
@@ -49,19 +44,6 @@ p {
   -o-transition: all 0.5s ease-out;
   transition: all 0.5s ease-out;
   text-align: center; }
-
-.tagline {
-  display: block;
-  padding: 20px 0 0;
-  opacity: 0;
-  color: #fff;
-  font-weight: 600;
-  text-shadow: #000 0px 1px 3px;
-  -webkit-transition: all 0.5s ease-out;
-  -moz-transition: all 0.5s ease-out;
-  -ms-transition: all 0.5s ease-out;
-  -o-transition: all 0.5s ease-out;
-  transition: all 0.5s ease-out; }
 
 .shift-text {
   margin: 80px auto 110px; }
@@ -205,48 +187,21 @@ pre {
   clear: both;
   text-align: center; }
 
-.btn {
-  display: inline-block;
-  position: relative;
-  margin: 0 10px 5px;
-  text-align: left;
-  vertical-align: top; }
-  @media screen and (max-width: 500px) {
-    .btn {
-      display: block; } }
-  .btn > a {
-    display: block;
-    position: relative;
-    padding: 0.8em 1.75em 0.7em;
-    color: #fff;
-    text-shadow: rgba(0, 0, 0, 0.3) 0px -1px 0px;
-    font-size: 1.5em;
-    font-weight: 400;
-    line-height: 1em;
-    text-align: center;
-    background-color: #3479b4;
-    border-radius: 4px;
-    z-index: 0;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    -o-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out; }
-    .btn > a:hover {
-      background-color: #4f92cc; }
-  .btn p {
-    line-height: 1em; }
-    .btn p a {
-      color: #333; }
-      .btn p a:hover {
-        color: #CCC; }
-
-
 
 footer {
   position: absolute;
   display: inline-block;
+  height: 10vh;
   margin: 5px;
   text-align: left;
   vertical-align: bottom;
+}
+
+#floatOffTop {
+  transform: translateY(-100vh);
+}
+
+.main {
+  height: 0vh;
+  background: #777777;
 }
