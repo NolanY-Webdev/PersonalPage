@@ -21,9 +21,17 @@ $(document).ready(function() {
 function mainPage() {
   mainTriggered = true;
   $('#typed-fix').hide();
-  $('.animatedIntro').slideUp();
+  $('.er5').fadeOut();
+  $('.er4').delay(100).fadeOut();
+  $('.er3').delay(200).fadeOut();
+  $('.er2').delay(300).fadeOut();
+  $('.er1').delay(400).fadeOut();
+  $('.text-body').delay(600).fadeOut();
+  $('.title-bar').delay(600).fadeOut();
+  $('.text-editor-wrap').delay(600).fadeOut();
+  $('.animatedIntro').delay(1000).fadeOut();
   $('footer').hide();
-  $('.main').append("<div>AND NOW MY PAGE APPEARS</div>");
+  $('.main').delay(2000).append("<div>AND NOW MY PAGE APPEARS</div>");
 }
 
 
@@ -55,19 +63,19 @@ function recursiveAdd(int) {
   console.log(int);
   switch(int) {
     case 0:
-      $('.typed-cursor').before("<br><span>$ ERROR: AWESOME LEVELS EXCEEDED MAXIMUM CAPACITY</span>");
+      $('.typed-cursor').before("<br><span class='er1'>$ ERROR: AWESOME LEVELS EXCEEDED MAXIMUM CAPACITY</span>");
       break;
     case 1:
-      $('.typed-cursor').before("<br><span>$ ERROR: DATA AGGREGATION CRITICAL FAILURE</span>");
+      $('.typed-cursor').before("<br><span class='er2'>$ ERROR: DATA AGGREGATION CRITICAL FAILURE</span>");
       break;
     case 2:
-      $('.typed-cursor').before("<br><span>$ ERROR: INSERT USELESS ERROR MESSAGE HERE</span>");
+      $('.typed-cursor').before("<br><span class='er3'>$ ERROR: INSERT USELESS ERROR MESSAGE HERE</span>");
       break;
     case 3:
-      $('.typed-cursor').before("<br><span>$ ERROR: POWER LEVEL OVER 9000</span>");
+      $('.typed-cursor').before("<br><span class='er4'>$ ERROR: POWER LEVEL OVER 9000</span>");
       break;
     case 4:
-      $('.typed-cursor').append("<br><span>$ SYSTEM FAILURE IMMINENT! RELEASE_SKYNET.EXE? Y or Y?</span>");
+      $('.typed-cursor').append("<br><span class='er5'>$ SYSTEM FAILURE IMMINENT! RELEASE_SKYNET.EXE? Y or Y?</span>");
       break;
     default:
       break;
