@@ -21,7 +21,7 @@ $(document).ready(function() {
 function mainPage() {
   mainTriggered = true;
   $('#typed-fix').hide();
-  $('.header').slideUp();
+  $('.animatedIntro').slideUp();
   $('footer').hide();
   $('.main').append("<div>AND NOW MY PAGE APPEARS</div>");
 }
