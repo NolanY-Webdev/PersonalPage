@@ -2,6 +2,7 @@ var skipped = false;
 var mainTriggered = false;
 var shifted = false;
 
+$('.main').hide();
 $('#typed').typed({
   strings: ['Whois: Nolan Ryan', 'Whois: Bruce Nolan', 'Whois: Nolan Kalani Yee     $^2000 WARNING:^500 STACK OVERFLOW'],
   typeSpeed: 1,
@@ -21,7 +22,6 @@ $(document).ready(function() {
 
 function mainPage() {
   mainTriggered = true;
-  $('.main').hide();
   $('.main').css({
     'height': '100vh'
   });
@@ -46,7 +46,7 @@ function mainPage() {
   $('.text-editor-wrap').delay(1000).fadeOut();
   $('.animatedIntro').delay(1000).fadeOut();
   $('footer').hide();
-  $('.main').delay(2000).append("<div>AND NOW MY PAGE APPEARS</div>").fadeIn();
+  $('.main').delay(2000).fadeIn();
 }
 
 
@@ -75,7 +75,6 @@ function recursiveHelper(int, max) {
 }
 
 function recursiveAdd(int) {
-  console.log(int);
   switch(int) {
     case 0:
       $('.typed-cursor').before("<br><span class='er1'>$ ERROR: AWESOME LEVELS EXCEEDED MAXIMUM CAPACITY</span>");
