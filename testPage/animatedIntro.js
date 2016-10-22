@@ -46,7 +46,16 @@ function mainPage() {
   $('.text-editor-wrap').delay(1000).fadeOut();
   $('.animatedIntro').delay(1000).fadeOut();
   $('footer').hide();
-  $('.main').delay(2000).fadeIn();
+  $('.main').delay(2000).fadeIn({
+    complete: function(){
+      $('.wordsAndThingsDisplayBox').fadeIn({
+        complete: function(){
+          $('.aboutMeContainer').fadeIn();
+        }
+      });
+
+    }
+  });
 }
 
 

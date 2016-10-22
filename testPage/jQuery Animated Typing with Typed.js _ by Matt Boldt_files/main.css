@@ -203,28 +203,34 @@ footer {
 
 .main {
   height: 0vh;
-  background: #777777;
+  background: #fff;
 }
 
 h1{
   text-align: center;
   font-size: 80px;
+  padding: 20px;
+  font-weight: 400;
+  padding-bottom: 7px;
 }
 
 h2{
   font-size: 40px;
-  padding: 30px;
   text-align: center;
 }
 
 .midTitleLine{
-  transform: translateX(-75px);
+  transform: translateX(-6vh);
 }
 
 .futureTW{
-  font-size: 30px;
+  font-size: 18px;
 }
 
 randomAboutMe{
   font-size: 24px;
+}
+
+ampersand{
+  font-size: 30px;
 }
