@@ -102,7 +102,7 @@ function randomAbtMe() {
     'Subtle as a Brick',
     'Running Out of Message Ideas',
     'Low Maintenance',
-    'Incredibly Good Looking',
+    'If( (near&&farSighted) || (far&&shortSighted)){ Incredibly Good Looking }',
     'Now With 75% More Wit',
     'Brandon Sanderson Junkie',
     'SF Beer Olympics Champion',
@@ -138,13 +138,14 @@ function randomAbtMe() {
     'Terminally Diagnosed With Whiteboy Rhythm (I Can\'t Dance)',
     'Majestic as _________',
     'Wants to Voice a Game Character',
-    'Born into a Green Tunic as the Hero of Time',
+    'Will Sometimes Vacation in Hyrule',
     'Raised on the Planet Reach Under Supervision of Dr. Catherine Halsey',
     'Resurrected as a Guardian of the Traveler\'s Light',
     'Known to Occasionally Moonlight as Italian Plumber to Fight Turtles',
     'I RTFM so You Won\'t Need to',
     'Able to Cook Minute Rice in 57 Seconds',
-    'Slightly Narcoleptic'
+    'Potentially Narcoleptic',
+    'Bo Burnham is a Comical Genius, Find That Happinesss Bo, You Deserve it'
 
   ];
 
@@ -159,5 +160,5 @@ function randomAbtMe() {
   $("randomAboutMe").fadeOut({complete: function(){
     $("randomAboutMe").html(aboutMes[Math.floor(Math.random()*aboutMes.length)]).fadeIn();
   }});
-  setTimeout(randomAbtMe, 15000);
+  setTimeout(randomAbtMe, 8000);
 }

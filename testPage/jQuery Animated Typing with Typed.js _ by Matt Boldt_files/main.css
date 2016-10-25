@@ -234,3 +234,19 @@ randomAboutMe{
 ampersand{
   font-size: 30px;
 }
+
+.tabs{
+  text-align: center;
+  font-size: 24;
+  padding:15px;
+}
+
+.wordsAndThingsContainer{
+  overflow-y: scroll;
+  height:400px;
+}
+
+.contactContainer{
+    text-align:center;
+}
+
