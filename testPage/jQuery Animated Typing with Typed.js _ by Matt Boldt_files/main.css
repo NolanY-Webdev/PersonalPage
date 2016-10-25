@@ -204,6 +204,7 @@ footer {
 .main {
   height: 0vh;
   background: #fff;
+  overflow-y: scroll;
 }
 
 h1{
@@ -242,11 +243,22 @@ ampersand{
 }
 
 .wordsAndThingsContainer{
-  overflow-y: scroll;
-  height:400px;
+  padding:0 20px 20px;
+  max-width:60ch;
+
 }
+
+.wordsAndThingsDisplayBox{
+  display:flex;
+  justify-content: flex-end;
+}
+
+
 
 .contactContainer{
     text-align:center;
 }
 
+.aboutMeText{
+  padding:10px;
+}
