@@ -102,7 +102,7 @@ function randomAbtMe() {
     'Subtle as a Brick',
     'Running Out of Message Ideas',
     'Low Maintenance',
-    'If( (near&&farSighted) || (far&&shortSighted)){ Incredibly Good Looking }',
+    'If( (near&&farSighted) || (far&&shortSighted)){ Incredibly Good Looking };',
     'Now With 75% More Wit',
     'Brandon Sanderson Junkie',
     'SF Beer Olympics Champion',
@@ -145,7 +145,10 @@ function randomAbtMe() {
     'I RTFM so You Won\'t Need to',
     'Able to Cook Minute Rice in 57 Seconds',
     'Potentially Narcoleptic',
-    'Bo Burnham is a Comical Genius, Find That Happinesss Bo, You Deserve it'
+    'Hopes Bo Burnham Finds His Happiness',
+    'while(frustrated){face + keyboard = "ijmn cg mrzehrsz "};',
+    'if(!caffinated){ part demon } else { complete angel };',
+    'Not as Think as you Drunk I am.'
 
   ];
 
@@ -157,8 +160,15 @@ function randomAbtMe() {
     'I lied, there are ' + (aboutMes.length + 2 - Math.floor(Math.random()*(aboutMes.length + 2))) + ' good job keeping track though'
     );
 
+  var randomInt = Math.floor(Math.random()*aboutMes.length);
+  while($("randomAboutMe").html() == aboutMes[randomInt]) {
+    console.log('hey thats the same shit');
+    randomInt = Math.floor(Math.random()*aboutMes.length);
+  }
+
+
   $("randomAboutMe").fadeOut({complete: function(){
-    $("randomAboutMe").html(aboutMes[Math.floor(Math.random()*aboutMes.length)]).fadeIn();
+    $("randomAboutMe").html(aboutMes[randomInt]).fadeIn();
   }});
   setTimeout(randomAbtMe, 8000);
 }

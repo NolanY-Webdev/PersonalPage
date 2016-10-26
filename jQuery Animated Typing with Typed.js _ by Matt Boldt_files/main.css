@@ -26,7 +26,7 @@ p {
 
 .animatedIntro {
   width: 100%;
-  min-height: 450px;
+/*  min-height: 450px;*/
   height: 90vh;
   margin: 0 auto 30px;
   padding: 10px 0;
@@ -35,6 +35,7 @@ p {
   transform: translateY(0);
   transition: 2s;
 }
+
 
 .head-wrap {
   margin: 30px auto 30px;
@@ -244,13 +245,12 @@ ampersand{
 
 .wordsAndThingsContainer{
   padding:0 20px 20px;
-  max-width:60ch;
+  display: flex;
 
 }
 
 .wordsAndThingsDisplayBox{
   display:flex;
-  justify-content: flex-end;
 }
 
 
@@ -259,6 +259,17 @@ ampersand{
     text-align:center;
 }
 
+.myPicture{
+  max-width:460px;
+  max-height:613px;
+}
+
 .aboutMeText{
   padding:10px;
+  max-width:45ch;
+  flex:1;
+}
+
+project{
+  padding:20px;
 }

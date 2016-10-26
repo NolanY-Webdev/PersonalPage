@@ -9,7 +9,6 @@ $('#typed').typed({
   callback: function(){
     shift();
     setTimeout(recursiveHelper(0,5), 1000);
-    // $('.head-wrap').delay(5000).fadeOut(1000);
   }
 });
 
