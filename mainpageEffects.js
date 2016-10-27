@@ -127,7 +127,7 @@ function randomAbtMe() {
     'Ninja by Night',
     'The Hero Gotham Deserves (But Doesn\'t Need, Thanks Batman)',
     'Not Sure if Anyone Will Read All of These',
-    'Knows More than John Snow (Not by Much)',
+    'Knows More than Jon Snow (Not by Much)',
     'One Part Philosoraptor',
     'Scientific Study Proves Theory: People Who Have More Birthdays Live Longer',
     'Magnetic Personality',
@@ -148,7 +148,7 @@ function randomAbtMe() {
     'Hopes Bo Burnham Finds His Happiness',
     'while(frustrated){face + keyboard = "ijmn cg mrzehrsz "};',
     'if(!caffinated){ part demon } else { complete angel };',
-    'Not as Think as you Drunk I am.'
+    'Dude, I\'m not as Think as you Drunk I am'
 
   ];
 
@@ -157,7 +157,7 @@ function randomAbtMe() {
     );
 
   aboutMes.push(
-    'I lied, there are ' + (aboutMes.length + 2 - Math.floor(Math.random()*(aboutMes.length + 2))) + ' good job keeping track though'
+    'I lied, there are ' + (aboutMes.length + 2 - Math.floor(Math.random()*(aboutMes.length + 2))) + ' messages. Good job keeping track though'
     );
 
   var randomInt = Math.floor(Math.random()*aboutMes.length);
@@ -170,5 +170,5 @@ function randomAbtMe() {
   $("randomAboutMe").fadeOut({complete: function(){
     $("randomAboutMe").html(aboutMes[randomInt]).fadeIn();
   }});
-  setTimeout(randomAbtMe, 8000);
+  setTimeout(randomAbtMe, 8500);
 }

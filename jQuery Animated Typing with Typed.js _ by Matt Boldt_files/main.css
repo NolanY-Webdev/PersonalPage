@@ -222,7 +222,7 @@ h2{
 }
 
 .midTitleLine{
-  transform: translateX(-6vh);
+  transform: translateX(-6vh); /* offseting mid title line so when (future) isNow things arent rightheavy */
 }
 
 .futureTW{
@@ -268,8 +268,10 @@ ampersand{
   padding:10px;
   max-width:45ch;
   flex:1;
+  align-content: right;
 }
 
 project{
   padding:20px;
+  align-self: center;
 }
