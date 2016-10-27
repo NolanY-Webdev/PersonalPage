@@ -1,7 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:400,500);
 * {
   padding: 0;
-  margin: 0; }
+  margin: 0;
+    -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
 
 body {
   font-family: "Ubuntu", sans-serif;
@@ -27,7 +33,7 @@ p {
 .animatedIntro {
   width: 100%;
 /*  min-height: 450px;*/
-  height: 90vh;
+  height: 100vh;
   margin: 0 auto 30px;
   padding: 10px 0;
   background: 000000 top center no-repeat fixed;
@@ -189,13 +195,18 @@ pre {
   text-align: center; }
 
 
-footer {
-  position: absolute;
-  display: inline-block;
-  height: 10vh;
-  margin: 5px;
-  text-align: left;
-  vertical-align: bottom;
+#skipButton{
+  position: fixed;
+  bottom:1vh;
+  left:1vh;
+  font-size: 20px;
+  border-radius: 16px;
+  background-color: #fff;
+  padding:5px;
+} #skipButton:hover {
+  background-color: #ddd;
+} #skipButton:active {
+  background-color: #aaa;
 }
 
 #floatOffTop {

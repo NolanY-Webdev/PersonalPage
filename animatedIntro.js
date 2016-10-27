@@ -44,7 +44,7 @@ function mainPage() {
   $('.title-bar').delay(1000).fadeOut();
   $('.text-editor-wrap').delay(1000).fadeOut();
   $('.animatedIntro').delay(1000).fadeOut();
-  $('footer').hide();
+  $('#skipButton').hide();
   $('.main').delay(2000).fadeIn({
     complete: function(){
       $('.wordsAndThingsDisplayBox').fadeIn({
