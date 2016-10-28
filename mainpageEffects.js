@@ -148,7 +148,8 @@ function randomAbtMe() {
     'Hopes Bo Burnham Finds His Happiness',
     'while(frustrated){face + keyboard = "ijmn cg mrzehrsz "};',
     'if(!caffinated){ part demon } else { complete angel };',
-    'Dude, I\'m not as Think as you Drunk I am'
+    'Dude, I\'m not as Think as you Drunk I am',
+    'Star Player of the Zanarkand Abes'
 
   ];
 
