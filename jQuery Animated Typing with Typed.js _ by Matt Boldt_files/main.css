@@ -288,6 +288,7 @@ ampersand{
 
 projTabs{
   float:left;
+  min-width: 250px;
 }
 
 .project{
