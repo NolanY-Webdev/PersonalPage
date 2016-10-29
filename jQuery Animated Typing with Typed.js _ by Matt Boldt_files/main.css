@@ -281,7 +281,7 @@ ampersand{
 
 .aboutMeText{
   padding:10px;
-  max-width:45ch;
+  max-width:60ch;
   flex:1;
   align-content: right;
 }
@@ -299,6 +299,8 @@ projTabs{
 
 projInfoDisplay{
   padding:20px;
+  max-width: 60ch;
+  min-width:40ch;
 }
 
 tabNames{
