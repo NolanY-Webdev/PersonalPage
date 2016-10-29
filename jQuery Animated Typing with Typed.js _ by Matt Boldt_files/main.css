@@ -286,11 +286,25 @@ ampersand{
   align-content: right;
 }
 
-project{
+projTabs{
+  float:left;
+}
+
+.project{
   padding:20px;
-  align-self: center;
+  display:block;
+  cursor:pointer;
+}
+
+projInfoDisplay{
+  padding:20px;
 }
 
 tabNames{
   cursor:pointer;
+}
+
+.contactContainer{
+  display:block;
+  content: right;
 }
