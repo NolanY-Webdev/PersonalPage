@@ -163,7 +163,7 @@ function randomAbtMe() {
 
   var randomInt = Math.floor(Math.random()*aboutMes.length);
   while($("randomAboutMe").html() == aboutMes[randomInt]) {
-    console.log('hey thats the same shit');
+    console.log('Identical aboutMe tried to pop up, don\'t worry, I stopped it');
     randomInt = Math.floor(Math.random()*aboutMes.length);
   }
 
