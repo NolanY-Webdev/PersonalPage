@@ -258,6 +258,10 @@ ampersand{
   padding:15px;
 }
 
+tabNames{
+  cursor:pointer;
+}
+
 .wordsAndThingsContainer{
   padding:0 20px 20px;
   display: flex;
@@ -267,8 +271,6 @@ ampersand{
 .wordsAndThingsDisplayBox{
   display:flex;
 }
-
-
 
 .contactContainer{
     text-align:center;
@@ -283,7 +285,7 @@ ampersand{
   padding:10px;
   max-width:60ch;
   flex:1;
-  align-content: right;
+  margin:auto;
 }
 
 projTabs{
@@ -301,10 +303,6 @@ projInfoDisplay{
   padding:20px;
   max-width: 60ch;
   min-width:40ch;
-}
-
-tabNames{
-  cursor:pointer;
 }
 
 .contactContainer{

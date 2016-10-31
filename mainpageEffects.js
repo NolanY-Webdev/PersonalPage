@@ -3,15 +3,15 @@
 
 var futureCountdown = 108;
 var currentTab = 'derp';
-var animating=false;
+var animating = false;
 
-$(document).ready(function() {
+$(document).ready(function(){
   fiveMinuteFader();
   randomAbtMe();
   $('.wordsAndThingsDisplayBox').hide();
   $('.wordsAndThingsContainer').hide();
 
-  $('.aboutMeTab').click(function(){
+  $('.aboutMeTab').click(function() {
 
     if(currentTab!='aboutMeContainer' && !animating){
       currentTab = 'aboutMeContainer';
@@ -36,6 +36,10 @@ $(document).ready(function() {
   $('.projectsTab').click(function(){
     $('.wordsAndThingsDisplayBox').fadeIn();
     if(currentTab!='projectsContainer' && !animating){
+      $('.projectDisplay').html(
+        '<-- Select one of my amazing projects <br>(and be amazed at how nothing happens because I haven\'t coded the transitions or data yet T_T ) <br> <br> For now, admire this ancient project from when I was beginning to learn code. A very basic application typically called pixel painter or something along those lines. Not really worth its own tab, but it looks pretty. -->'
+        );
+      $('.projectImage').attr({src:'img/testImg.png'});
       currentTab = 'projectsContainer';
       animating = true;
       $('.aboutMeContainer').hide({
@@ -95,15 +99,15 @@ function fiveMinuteFader() {
 function randomAbtMe() {
   var aboutMes = [
     'Lifetime Video Gamer',
-    'General Nice Guy',
+    'General All Around Nice Guy',
     'Thespian at Heart',
     '"Mr. Nolan" by Adorable 4-year Old Logic',
     'Can\'t Spell Without Double Checking Google',
-    'Subtle as a Brick',
+    'Subtle as a Brick (Honesty is Underrated)',
     'Running Out of Message Ideas',
     'Low Maintenance',
     'If( (near&&farSighted) || (far&&shortSighted)){ Incredibly Good Looking };',
-    'Now With 75% More Wit',
+    'Now With 83% More Wit',
     'Brandon Sanderson Junkie',
     'SF Beer Olympics Champion',
     'Occasional Derp',
@@ -136,7 +140,6 @@ function randomAbtMe() {
     'Recovering Wow-aholic',
     'Killed All His Farmville Crops by Day 2',
     'Terminally Diagnosed With Whiteboy Rhythm (I Can\'t Dance)',
-    'Majestic as _________',
     'Wants to Voice a Game Character',
     'Will Sometimes Vacation in Hyrule',
     'Raised on the Planet Reach Under Supervision of Dr. Catherine Halsey',
@@ -149,7 +152,9 @@ function randomAbtMe() {
     'while(frustrated){face + keyboard = "ijmn cg mrzehrsz "};',
     'if(!caffinated){ part demon } else { complete angel };',
     'Dude, I\'m not as Think as you Drunk I am',
-    'Star Player of the Zanarkand Abes'
+    'Star Player of the Zanarkand Abes',
+    'Probably Slightly Autistic',
+    'Perfectly Flawed'
 
   ];
 
@@ -163,7 +168,7 @@ function randomAbtMe() {
 
   var randomInt = Math.floor(Math.random()*aboutMes.length);
   while($("randomAboutMe").html() == aboutMes[randomInt]) {
-    console.log('Identical aboutMe tried to pop up, don\'t worry, I stopped it');
+    console.log('Identical aboutMe tried to pop up. Don\'t worry, I stopped it');
     randomInt = Math.floor(Math.random()*aboutMes.length);
   }
 
@@ -173,3 +178,4 @@ function randomAbtMe() {
   }});
   setTimeout(randomAbtMe, 8500);
 }
+
