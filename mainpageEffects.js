@@ -164,9 +164,9 @@ function swapProjectContent(projectNum) {
         complete:function(){
           $('.projectDisplay').html(
               '<h3 class="projTitle">Atlas Pet Co. Work:</h3> ' +
-              '<br> <h4 title="Contact info only provided upon direct request for privacy"> Project Lead: Sam Atler</h4>'+
+              '<br> <h4 title="Contact info only provided upon direct request for privacy"> Project Lead: Sam Alter</h4>'+
               '<br><br> <p class="projTextBox"> '+
-              'Atlas the Black-Lab was one of the first friends I made here in SF (along with his awesome owner Sam Atler). '+
+              'Atlas the Black-Lab was one of the first friends I made here in SF (along with his awesome owner Sam Alter). '+
               'They welcomed me to the city and helped me transition into life here. <br><br> '+
               'When Sam had a "shitty" scenario intrude upon his life, <br> '+
               '(quite literally -long story- could happen to anyone), <br> '+
