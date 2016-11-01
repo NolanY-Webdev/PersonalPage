@@ -299,6 +299,13 @@ projTabs{
   cursor:pointer;
 }
 
+.projectImage{
+  max-height: 550px;
+  max-width: 550px;
+  margin-left:auto;
+  margin-right:0px;
+}
+
 projInfoDisplay{
   padding:20px;
   max-width: 60ch;
