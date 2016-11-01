@@ -164,7 +164,7 @@ function swapProjectContent(projectNum) {
         complete:function(){
           $('.projectDisplay').html(
               '<h3 class="projTitle">Atlas Pet Co. Work:</h3> ' +
-              '<br> <h4 title="SAM\'S CONTACT INFO ONLY PROVIDED UPON DIRECT REQUEST FOR SAKE OF PRIVACY"> Project Lead: Sam Atler</h4>'+
+              '<br> <h4 title="Contact info only provided upon direct request for privacy"> Project Lead: Sam Atler</h4>'+
               '<br><br> <p class="projTextBox"> '+
               'Atlas the Black-Lab was one of the first friends I made here in SF (along with his awesome owner Sam Atler). '+
               'They welcomed me to the city and helped me transition into life here. <br><br> '+
@@ -227,7 +227,7 @@ function swapProjectContent(projectNum) {
               '<br> <h4> Project Lead: Me</h4>'+
               '<br> <h4 title="Contact info provided upon direct request"> Team Members: Michael Im & Eleazar Corpuz</h4>'+
               '<br><br> <p class="projTextBox"> '+
-              ''+
+              'DevLeague Graduation Exam: Create a webapp that utilizes an outside API and works with a sizeable chunk of "data"'+
               ''+
               ''+
               ''+

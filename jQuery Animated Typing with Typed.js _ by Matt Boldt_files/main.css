@@ -237,7 +237,7 @@ h2{
 }
 
 .midTitleLine{
-  transform: translateX(-6vh); /* offseting mid title line so when (future) isNow things arent rightheavy */
+  transform: translateX(-6vh); /* offseting mid title line so when (future)->isNow things arent rightheavy */
 }
 
 .futureTW{
