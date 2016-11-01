@@ -38,7 +38,7 @@ $(document).ready(function(){
     if(currentTab!='projectsContainer' && !animating){
       currentProject = 'initProjDisplay';
       $('.projectDisplay').html(
-        '<p class="projTextBox"><-- Select one of my amazing works <br>(Unfortunately old projects built/hosted on free Meteor servers have been removed due to a <a href="#" onclick="window.open(\'https://forums.meteor.com/t/meteor-com-free-hosting-ends-march-25-2016/19308\',\'_blank\')">change in Meteor policies</a>) <br> <br> Or admire this ancient project from when I was beginning to learn code. A very basic application typically called pixel painter or something along those lines. Not really worth its own tab, but it looks pretty. --></p>'
+        '<p class="projTextBox"><-- Select one of my amazing works, if the animations look messy its because all the images haven\'t had the chance to load yet.  <br>(Unfortunately old projects built/hosted on free Meteor servers have been removed due to a <a href="#" onclick="window.open(\'https://forums.meteor.com/t/meteor-com-free-hosting-ends-march-25-2016/19308\',\'_blank\')">change in Meteor policies</a>) <br> <br> Or admire this ancient project from when I was beginning to learn code. A very basic application typically called pixel painter or something along those lines. Not really worth its own tab, but it looks pretty. --></p>'
         );
       $('.projectImage').attr({src:'img/testImg.png'});
       currentTab = 'projectsContainer';
