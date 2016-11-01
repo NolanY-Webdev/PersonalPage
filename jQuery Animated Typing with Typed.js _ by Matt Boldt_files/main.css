@@ -270,6 +270,7 @@ tabNames{
 
 .wordsAndThingsDisplayBox{
   display:flex;
+  justify-content: center;
 }
 
 .contactContainer{
@@ -286,6 +287,7 @@ tabNames{
   max-width:60ch;
   flex:1;
   margin:auto;
+  margin-left:20px;
 }
 
 projTabs{
