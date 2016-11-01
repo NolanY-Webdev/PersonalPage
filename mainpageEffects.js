@@ -227,12 +227,13 @@ function swapProjectContent(projectNum) {
               '<br> <h4> Project Lead: Me</h4>'+
               '<br> <h4 title="Contact info provided upon direct request"> Team Members: Michael Im & Eleazar Corpuz</h4>'+
               '<br><br> <p class="projTextBox"> '+
-              'DevLeague Graduation Exam: Create a webapp that utilizes an outside API and works with a sizeable chunk of "data"'+
-              ''+
-              ''+
-              ''+
-              ''+
-              ''+
+              'DevLeague Graduation Exam: Create a webapp that utilizes an outside API and works with a sizeable chunk of "data". '+
+              'We had a sizeable chunk of League of Legends converts during our bootcamp so we wanted to design an app to help them learn the game. <br><br>'+
+              'My Initial App Idea: Designed for pre-match use this app would pull api data for the ten players (user included). '+
+              'With this data it would run a threat analysis based off previous matches played for each player. '+
+              'App would then decide the best items (and tips) for the user to counter strong players on enemy team. <br><br>'+
+              'Problem: Reading through the "legaluese" I learned Riot (League\'s developer) limits API call rate (10 calls/ 10 seconds), current app idea required 12 API calls per inquiry (1x screenname to API ID, 1x match data, 10x player data) <br><br>'+
+              'New App Idea: Using provided match data to create a post-game map replay of how the game played out. Allowing new players to visualize where things might have went wrong. We went with this idea as it only required 3 API calls.'+
               ''+
               ''+
               ''+
