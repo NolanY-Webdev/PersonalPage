@@ -125,6 +125,9 @@ $('.project6').click(function(){
 
 });
 
+function wakeUpDolores(){
+  $('.projectDisplay').html('These violent delights have such violent ends.');
+};
 
 function swapProjectContent(projectNum) {
   switch (projectNum) {
