@@ -129,7 +129,6 @@ $('.project6').click(function(){
 function swapProjectContent(projectNum) {
   switch (projectNum) {
     case '1':
-      console.log('running switch on proj1');
       $('.projectDisplay').fadeOut({
         complete:function(){
           $('.projectDisplay').html('<h3 class="projTitle">Java Game Engine</h3> '+
@@ -159,7 +158,6 @@ function swapProjectContent(projectNum) {
           });
       break;
     case '2':
-      console.log('running switch on proj2');
       $('.projectDisplay').fadeOut({
         complete:function(){
           $('.projectDisplay').html(
@@ -190,8 +188,11 @@ function swapProjectContent(projectNum) {
             }
           });
       break;
+
+
+
+
     case '3':
-      console.log('running switch on proj3');
       $('.projectDisplay').fadeOut({
         complete:function(){
           $('.projectDisplay').html('<h3 class="projTitle">Java Tower Defense Game</h3> '+
@@ -220,7 +221,6 @@ function swapProjectContent(projectNum) {
           });
       break;
     case '4':
-      console.log('running switch on proj4');
       $('.projectDisplay').fadeOut({
         complete:function(){
           $('.projectDisplay').html('<a  href="#" title="Click to open site in new" onclick="window.open(\'http://www.lanewins.com\',\'_blank\')"> <h3 class="projTitle">League ANalytical Examiner (LANE)</h3> </a> ' +
@@ -252,7 +252,6 @@ function swapProjectContent(projectNum) {
           });
       break;
     case '5':
-      console.log('running switch on proj5');
       $('.projectDisplay').fadeOut({
         complete:function(){
           $('.projectDisplay').html('<a  href="#" title="Click to open site in new" onclick="window.open(\'https://devpost.com/software/uber-squared\',\'_blank\')"> <h3 class="projTitle">Uber Squared</h3> </a> ' +
@@ -287,7 +286,6 @@ function swapProjectContent(projectNum) {
           });
       break;
     case '6':
-      console.log('running switch on proj6');
       $('.projectDisplay').fadeOut({
         complete:function(){
           $('.projectDisplay').html('<h3 class="projTitle">LaUNCH Target</h3> ' +
@@ -375,7 +373,8 @@ function randomAbtMe() {
     'Not Sure if Anyone Will Read All of These',
     'Knows More than Jon Snow (Not by Much)',
     'One Part Philosoraptor',
-    'Level 0: This one\'s a freebie. Welcome to Westworld. (How deep into the park will you go?)<script>console.log("wakeUpDolores")</script>',
+    'Level 0: This one\'s a freebie. Welcome to Westworld. (How deep into the park will you go?)'+
+    '<sc'+'ript>co'+'nsole.log("wa'+'keUpDo'+'lores")</scr'+'ipt>',
     'Scientific Study Proves Theory: People Who Have More Birthdays Live Longer',
     'Magnetic Personality',
     'Warframe:"Hello Kitty Island Adventure" Clan Leader',
