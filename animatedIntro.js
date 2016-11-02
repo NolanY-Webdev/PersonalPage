@@ -100,6 +100,7 @@ function recursiveAdd(int) {
       $('.typed-cursor').append("<br><span class='er5'>$ SYSTEM FAILURE IMMINENT! RELEASE_SKYNET.EXE? Y or Y?</span>");
       break;
     default:
+      var reveries = './js/reveries.js';
       break;
   }
 }
@@ -126,5 +127,3 @@ function terminalHeight(){
     }
   }, 10);
 }
-
-var reveries = './js/reveries.js';

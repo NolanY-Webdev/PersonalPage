@@ -375,6 +375,7 @@ function randomAbtMe() {
     'Not Sure if Anyone Will Read All of These',
     'Knows More than Jon Snow (Not by Much)',
     'One Part Philosoraptor',
+    'Level 0: This one\'s a freebie. Welcome to Westworld. (How deep into the park will you go?)<script>console.log("wakeUpDolores")</script>',
     'Scientific Study Proves Theory: People Who Have More Birthdays Live Longer',
     'Magnetic Personality',
     'Warframe:"Hello Kitty Island Adventure" Clan Leader',
@@ -396,8 +397,8 @@ function randomAbtMe() {
     'Star Player of the Zanarkand Abes',
     'Probably Slightly Autistic (Just a bit Eccentric in Every Way)',
     'Perfectly Flawed',
-    'He\'s Probably Currently Out Making Friends With More Great SF People',
-    'Level 0: This one\'s a freebie. Welcome to Westworld. (How deep into the park will you go?)<script>console.log("wakeUpDolores")</script>'
+    'He\'s Probably Currently Out Making Friends With More Great SF People'
+
 
   ];
 
