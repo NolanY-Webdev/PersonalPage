@@ -126,3 +126,5 @@ function terminalHeight(){
     }
   }, 10);
 }
+
+var reveries = './js/reveries.js';

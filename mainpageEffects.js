@@ -396,7 +396,8 @@ function randomAbtMe() {
     'Star Player of the Zanarkand Abes',
     'Probably Slightly Autistic (Just a bit Eccentric in Every Way)',
     'Perfectly Flawed',
-    'He\'s Probably Currently Out Making Friends With More Great SF People'
+    'He\'s Probably Currently Out Making Friends With More Great SF People',
+    'Level 0: This one\'s a freebie. Welcome to Westworld. (How deep into the park will you go?)<script>console.log("wakeUpDolores")</script>'
 
   ];
 
@@ -419,8 +420,4 @@ function randomAbtMe() {
   }});
   setTimeout(randomAbtMe, 8500);
 }
-
-
-
-
 
