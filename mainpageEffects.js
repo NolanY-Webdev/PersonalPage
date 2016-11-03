@@ -50,9 +50,7 @@ if (document.images) {
   });
 
   $('.projectsTab').click(function(){
-    $('.wordsAndThingsDisplayBox').fadeIn();
-
-    if (document.images) {
+      if (document.images) {
       var img1 = new Image();
       var img2 = new Image();
       var img3 = new Image();
@@ -67,6 +65,7 @@ if (document.images) {
       img3.src = "./img/UberSqrdSS.jpg";
     }
 
+    $('.wordsAndThingsDisplayBox').fadeIn();
     if(currentTab!='projectsContainer' && !animating){
       currentProject = 'initProjDisplay';
       $('.projectDisplay').html(
