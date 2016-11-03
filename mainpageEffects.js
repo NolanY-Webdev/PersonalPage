@@ -51,6 +51,22 @@ if (document.images) {
 
   $('.projectsTab').click(function(){
     $('.wordsAndThingsDisplayBox').fadeIn();
+
+    if (document.images) {
+      var img1 = new Image();
+      var img2 = new Image();
+      var img3 = new Image();
+      img1.src = "./img/AtlasSS.png";
+      img2.src = "./img/DevMeteorHackathon.jpg";
+      img3.src = "./img/JavaTDSS.png";
+      img1 = new Image();
+      img2 = new Image();
+      img3 = new Image();
+      img1.src = "./img/LaneWinsSS.png";
+      img2.src = "./img/testImgProj2.png";
+      img3.src = "./img/UberSqrdSS.jpg";
+    }
+
     if(currentTab!='projectsContainer' && !animating){
       currentProject = 'initProjDisplay';
       $('.projectDisplay').html(
