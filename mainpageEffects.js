@@ -407,7 +407,7 @@ function randomAbtMe() {
     'Not Sure if Anyone Will Read All of These',
     'Knows More than Jon Snow (Not by Much)',
     'One Part Philosoraptor',
-    'Level 0: This one\'s a freebie. Welcome to Westworld. (How deep into the park will you go?)'+
+    'Level 0: This one\'s a freebie. Welcome to Not-Eastworld. (How deep into the park will you go?)'+
     '<sc'+'ript>co'+'nsole.log("wa'+'keUpDo'+'lores")</scr'+'ipt>',
     'Scientific Study Proves Theory: People Who Have More Birthdays Live Longer',
     'Magnetic Personality',
