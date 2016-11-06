@@ -431,7 +431,8 @@ function randomAbtMe() {
     'Probably Slightly Autistic (Just a bit Eccentric in Every Way)',
     'Perfectly Flawed',
     'He\'s Probably Currently Out Making Friends With More Great SF People',
-    '"Wubba Lubba Dub Dub"<script>/* Ever feel like a butter passing robot? https://youtu.be/X7HmltUWXgs?t=53s */</script>'
+    '"Wubba Lubba Dub Dub"<script>/* Ever feel like a butter passing robot? https://youtu.be/X7HmltUWXgs?t=53s */</script>',
+    'Because Life is One Big Dunning-Kruger Roller Coaster'
 
 
 
