@@ -29,6 +29,12 @@ if (document.images) {
 }
 
   $('.aboutMeTab').click(function() {
+
+
+    ga('set', 'page', '/aboutMe.html');
+    ga('send', 'pageview');
+
+
     if(currentTab!='aboutMeContainer' && !animating){
       currentTab = 'aboutMeContainer';
       animating = true;

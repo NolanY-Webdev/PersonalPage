@@ -17,6 +17,9 @@ $(document).ready(function() {
     skipped = true;
     mainPage();
   });
+
+  ga('set', 'page', '/intro.html');
+  ga('send', 'pageview');
 });
 
 function mainPage() {
