@@ -294,7 +294,7 @@ function swapProjectContent(projectNum) {
     case '5':
       $('.projectDisplay').fadeOut({
         complete:function(){
-          $('.projectDisplay').html('<a  href="#" title="Click to open site in new" onclick="window.open(\'https://devpost.com/software/uber-squared\',\'_blank\')"> <h3 class="projTitle">Uber Squared</h3> </a> ' +
+          $('.projectDisplay').html(' <h3 class="projTitle">Uber Squared</h3> ' +
               '<br> <h4> Project Lead: Me</h4>'+
               '<br> <h4 title="Contact info provided upon direct request"> Team Members: Michael Im, Robert Galliher, & Bryan Alexander</h4>'+
               '<br><br> <p class="projTextBox"> '+
