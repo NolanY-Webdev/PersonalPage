@@ -168,6 +168,7 @@ function wakeUpDolores(){
 
 function swapProjectContent(projectNum) {
   switch (projectNum) {
+
     case '1':
       $('.projectDisplay').fadeOut({
         complete:function(){
@@ -197,6 +198,7 @@ function swapProjectContent(projectNum) {
             }
           });
       break;
+
     case '2':
       $('.projectDisplay').fadeOut({
         complete:function(){
@@ -229,9 +231,6 @@ function swapProjectContent(projectNum) {
           });
       break;
 
-
-
-
     case '3':
       $('.projectDisplay').fadeOut({
         complete:function(){
@@ -260,6 +259,7 @@ function swapProjectContent(projectNum) {
             }
           });
       break;
+
     case '4':
       $('.projectDisplay').fadeOut({
         complete:function(){
@@ -291,6 +291,7 @@ function swapProjectContent(projectNum) {
             }
           });
       break;
+
     case '5':
       $('.projectDisplay').fadeOut({
         complete:function(){
@@ -325,6 +326,7 @@ function swapProjectContent(projectNum) {
             }
           });
       break;
+
     case '6':
       $('.projectDisplay').fadeOut({
         complete:function(){
@@ -438,7 +440,8 @@ function randomAbtMe() {
     'Perfectly Flawed',
     'He\'s Probably Currently Out Making Friends With More Great SF People',
     '"Wubba Lubba Dub Dub"<script>/* Ever feel like a butter passing robot? https://youtu.be/X7HmltUWXgs?t=53s */</script>',
-    'Because Life is One Big Dunning-Kruger Roller Coaster'
+    'Because Life is One Big Dunning-Kruger Roller Coaster',
+    'Swanson in spirit, Haverford in ambition, Wyatt in person, Dwyer-Karate-Macclain at heart'
 
 
 
