@@ -382,7 +382,7 @@ function randomAbtMe() {
   var aboutMes = [
     'Lifetime Video Gamer',
     'General All Around Nice Guy',
-    'Thespian at Heart',
+    'Thespian, because scripted acting is fun',
     '"Mr. Nolan" by Adorable 4-year Old Logic',
     'Can\'t Spell Without Double Checking Google',
     'Subtle as a Brick (Honesty is Underrated)',
@@ -441,8 +441,7 @@ function randomAbtMe() {
     'He\'s Probably Currently Out Making Friends With More Great SF People',
     '"Wubba Lubba Dub Dub"<script>/* Ever feel like a butter passing robot? https://youtu.be/X7HmltUWXgs?t=53s */</script>',
     'Because Life is One Big Dunning-Kruger Roller Coaster',
-    'Swanson in spirit, Haverford in ambition, Wyatt in person, Sir Dwyer-Karate-Macklin at heart',
-    'Sorry gents, not on Grindr. Sorry ladies, I am on Tinder'
+    'Swanson in spirit, Haverford in ambition, Wyatt in person, Sir Dwyer-Karate-Macklin at heart'
 
 
 
