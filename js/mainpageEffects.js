@@ -441,7 +441,8 @@ function randomAbtMe() {
     'He\'s Probably Currently Out Making Friends With More Great SF People',
     '"Wubba Lubba Dub Dub"<script>/* Ever feel like a butter passing robot? https://youtu.be/X7HmltUWXgs?t=53s */</script>',
     'Because Life is One Big Dunning-Kruger Roller Coaster',
-    'Swanson in spirit, Haverford in ambition, Wyatt in person, Dwyer-Karate-Macclain at heart'
+    'Swanson in spirit, Haverford in ambition, Wyatt in person, Sir Dwyer-Karate-Macklin at heart',
+    'Sorry gents, not on Grindr. Sorry ladies, I am on Tinder'
 
 
 
