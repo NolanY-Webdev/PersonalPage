@@ -401,7 +401,7 @@ function randomAbtMe() {
     'Loved by Dogs: Man\'s Best Friend',
     'MMmmmmmmMMmmmmmMMMmmmmmmmm Gluten',
     'Hotsauce Addict',
-    'Eternal Sunbro; PRAISE THE SUN!',
+    'Eternal Sunbro; PRAISE THE SUN! Let us engage in Jolly Cooperation',
     'I Promise Not to Deploy Skynet',
     'Triple A Person: About Averagely Awesome',
     'In Shape; Round is a Shape',
