@@ -4,7 +4,7 @@ var shifted = false;
 
 $('.main').hide();
 $('#typed').typed({
-  strings: ['Whois: Nolan Ryan', 'Whois: Bruce Nolan', 'Whois: Nolan Kalani Yee     $^2000 WARNING:^500 STACK OVERFLOW'],
+  strings: ['Whois: Nolan Ryan', 'Whois: Bruce Nolan', 'Whois: Nolan Kalani Yee       $^2000 WARNING:^500 STACK OVERFLOW'],
   typeSpeed: 1,
   callback: function(){
     shift();
