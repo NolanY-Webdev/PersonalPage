@@ -12,7 +12,7 @@ function animatedBG() {
 
     var FlowField, Grid, GridView, Squiggle, SquiggleManager, animate, animationRequestId, createMapData, ctx, defaultTargetCellX, defaultTargetCellY, gridData, gridView, noop, rng, seed, squiggleCount, squiggleManager;
 
-    squiggleCount = 3000;
+    squiggleCount = 1500;
 
     ctx = document.getElementById('canvas').getContext('2d');
 
