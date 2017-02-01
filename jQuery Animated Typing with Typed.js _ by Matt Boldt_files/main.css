@@ -15,8 +15,17 @@
 body {
   font-family: "Ubuntu", sans-serif;
   font-size: 100%;
-  background: #f8f8f8;
+  background: transparent;
   overflow:hidden;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -10;
 }
 
 a {
@@ -197,6 +206,7 @@ pre {
   clear: both;
   text-align: center; }
 
+/*BEGIN PERSONAL CSS CODE*/
 
 #skipButton{
   position: fixed;
@@ -219,7 +229,7 @@ pre {
 
 .main {
   height: 0vh;
-  background: #fff;
+  background: transparent;
   overflow-y: scroll;
 }
 
@@ -229,42 +239,50 @@ h1{
   padding: 20px;
   font-weight: 400;
   padding-bottom: 7px;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 h2{
   font-size: 40px;
   text-align: center;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .midTitleLine{
   transform: translateX(-6vh); /* offseting mid title line so when (future)->isNow things arent rightheavy */
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .futureTW{
   font-size: 18px;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 randomAboutMe{
   font-size: 24px;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 ampersand{
   font-size: 30px;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .tabs{
   text-align: center;
   font-size: 24;
   padding:15px;
+  text-shadow:  -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 tabNames{
   cursor:pointer;
 }
 
-.wordsAndThingsContainer{
-  padding:0 20px 20px;
+.wordsAndThingsContainer {
+  padding:10px 20px 20px;
   display: flex;
+  background-color: rgba(251, 251, 251, 0.5);
 
 }
 
@@ -280,6 +298,9 @@ tabNames{
 .myPicture{
   max-width:460px;
   max-height:613px;
+  min-width:46px;
+  min-height:61px;
+  padding:5px;
 }
 
 .aboutMeText{
@@ -318,4 +339,118 @@ projInfoDisplay{
   display:block;
   margin:auto;
   padding:20px;
+}
+
+@media screen and (max-width: 399px) and (-webkit-device-pixel-ratio: 1),
+(max-width: 799px) and (-webkit-device-pixel-ratio: 2),
+(max-width: 799px) { /*WHEN SCREEN IS < 800px WIDE*/
+
+  .main {
+    height: 0vh;
+    overflow-y: scroll;
+  }
+
+  h1{
+    text-align: center;
+    font-size: 80px;
+    padding: 20px;
+    font-weight: 400;
+    padding-bottom: 7px;
+  }
+
+  h2{
+    font-size: 40px;
+    text-align: center;
+  }
+
+  .midTitleLine{
+    transform: translateX(-6vh); /* offseting mid title line so when (future)->isNow things arent rightheavy */
+  }
+
+  .futureTW{
+    font-size: 18px;
+  }
+
+  randomAboutMe{
+    font-size: 12px;
+  }
+
+  ampersand{
+    font-size: 30px;
+  }
+
+  .tabs{
+    text-align: center;
+    font-size: 12px;
+    padding:15px;
+  }
+
+  tabNames{
+    cursor:pointer;
+  }
+
+  .wordsAndThingsContainer {
+    padding:0 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .wordsAndThingsDisplayBox{
+    display:flex;
+    justify-content: center;
+  }
+
+  .contactContainer{
+      text-align:center;
+  }
+
+  .myPicture{
+    max-width:230px;
+    max-height:307px;
+    min-width:46px;
+    min-height:61px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
+  .aboutMeText{
+    padding:10px;
+    max-width:60ch;
+    flex:1;
+    margin:auto;
+    margin-left:20px;
+  }
+
+  projTabs{
+    float:left;
+    min-width: 250px;
+  }
+
+  .project{
+    padding:5px;
+    display:block;
+    cursor:pointer;
+  }
+
+  .projectImage{
+    max-height: 550px;
+    max-width: 550px;
+    margin-left:auto;
+    margin-right:0px;
+  }
+
+  projInfoDisplay{
+    padding:20px;
+    max-width: 60ch;
+    min-width:40ch;
+  }
+
+  .contactContainer{
+    display:block;
+    margin:auto;
+    padding:20px;
+  }
+
 }
