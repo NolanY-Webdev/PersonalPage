@@ -341,9 +341,9 @@ projInfoDisplay{
   padding:20px;
 }
 
-@media screen and (max-width: 399px) and (-webkit-device-pixel-ratio: 1),
-(max-width: 799px) and (-webkit-device-pixel-ratio: 2),
-(max-width: 799px) { /*WHEN SCREEN IS < 800px WIDE*/
+@media screen and (max-width: 350px) and (-webkit-device-pixel-ratio: 1),
+(max-width: 700px) and (-webkit-device-pixel-ratio: 2),
+(max-width: 700px) { /*WHEN SCREEN IS < 700px WIDE*/
 
   .main {
     height: 0vh;

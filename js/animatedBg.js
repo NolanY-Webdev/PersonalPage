@@ -12,7 +12,7 @@ function animatedBG() {
 
     var FlowField, Grid, GridView, Squiggle, SquiggleManager, animate, animationRequestId, createMapData, ctx, defaultTargetCellX, defaultTargetCellY, gridData, gridView, noop, rng, seed, squiggleCount, squiggleManager;
 
-    squiggleCount = 3000;
+    squiggleCount = 1500;
 
     ctx = document.getElementById('canvas').getContext('2d');
 
@@ -274,9 +274,7 @@ function animatedBG() {
       this.cellWidth = cellWidth1;
       this.cellHeight = cellHeight1;
       this.arriveCallback = arriveCallback;
-      this.color = randomColor({
-        luminosity: 'light'
-      });
+      this.color = 'rgba(' + (Math.floor(Math.random() * 205)) + ',' + (Math.floor(Math.random() * 55) + 200) + ',' +  (Math.floor(Math.random() * 155) + 100) + ',' + Math.random() + ')';
       this.size = 2;
       this.speed = 1;
       this.recycle(cellX, cellY);
