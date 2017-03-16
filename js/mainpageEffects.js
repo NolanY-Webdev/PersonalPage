@@ -24,7 +24,7 @@ if (document.images) {
   img2 = new Image();
   img3 = new Image();
   img1.src = "./img/LaneWinsSS.png";
-  img2.src = "./img/testImgProj2.png";
+  img2.src = "./img/contact-dir.png";
   img3.src = "./img/UberSqrdSS.jpg";
 }
 
@@ -67,7 +67,7 @@ if (document.images) {
       img2 = new Image();
       img3 = new Image();
       img1.src = "./img/LaneWinsSS.png";
-      img2.src = "./img/testImgProj2.png";
+      img2.src = "./img/contact-dir.png";
       img3.src = "./img/UberSqrdSS.jpg";
     }
 
@@ -172,25 +172,18 @@ function swapProjectContent(projectNum) {
     case '1':
       $('.projectDisplay').fadeOut({
         complete:function(){
-          $('.projectDisplay').html('<h3 class="projTitle">Java Game Engine</h3> '+
-              '<br><h4>Personal Project: Work In Progress</h4><br> <p class="projTextBox"> '+
-              'This is the latest personal project I have been working on prior to constructing my website. '+
-              'Unfortunately I do not have a suitable picture yet of anything other than a box utilizing the shaders... '+
-              'So here\'s another beautiful shot of my pixel painter. '+
-              'I\'ll post a picture up once I throw together a little 3D model in Blender and manage to load it into the project. <br> <br> '+
-              'The goals of this project are as follows: <br> '+
-              '- Continue solidifying knowledge between Java and Javascript. <br> '+
-              '- Experimentation with building a three dimensional virtual sandbox world entirely from scratch. <br> '+
-              '- Ponder on the chaos created adding another dimension (2D vs 3D) <br>'+
-              '- Garner experience with OpenGL and learn how to use associoated tech '+
-              '(GLSL - Vertex/Fragment Shaders, Vertex Array Objects (VAOs), Vertex Buffer Objects (VBOs)) <br> '+
-              '- To begin learning 3D model creation via Blender.'+
+          $('.projectDisplay').html('<a  href="#" title="Click to open site in new" onclick="window.open(\'https://alpha.flybox.online/about\',\'_blank\')"> <h3 class="projTitle">Flybox</h3> </a>'+
+              '<br><h4> E-mail: redefined </h4><br> <p class="projTextBox"> '+
+              'The latest project I\'ve been contributing to.'+
+              ' Flybox is a non-funded stealth stage startup working to reinvent E-mail '+
+              '(currently in closed alpha, working out the kinks in the MVP).'+
+              ' Can\'t share much more but check out our about page for more information.'+
               '</p>').fadeIn();
         }
       });
       $('.projectImage').fadeOut({
             complete:function(){
-              $('.projectImage').attr({src:'img/testImgProj2.png'}).fadeIn({
+              $('.projectImage').attr({src:'img/contact-dir.png'}).fadeIn({
                 complete:function(){
                   animating = false;
                 }
