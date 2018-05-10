@@ -13,6 +13,7 @@ $(document).ready(function(){
   $('.wordsAndThingsContainer').hide();
 
 
+setTimeout((function () {
 if (document.images) {
   var img1 = new Image();
   var img2 = new Image();
@@ -27,6 +28,8 @@ if (document.images) {
   img2.src = "./img/contact-dir.png";
   img3.src = "./img/UberSqrdSS.jpg";
 }
+})(), 0);
+
 
   $('.aboutMeTab').click(function() {
 
@@ -176,7 +179,7 @@ function swapProjectContent(projectNum) {
               '<br><h4> E-mail: redefined </h4><br> <p class="projTextBox"> '+
               'The latest project I\'ve been contributing to.'+
               ' Flybox is a non-funded stealth stage startup working to reinvent E-mail '+
-              '(currently in closed alpha, working out the kinks in the MVP).'+
+              '(currently in closed alpha, working out the bugs in the MVP).'+
               ' Can\'t share much more but check out our about page for more information.'+
               '</p>').fadeIn();
         }
@@ -409,7 +412,7 @@ function randomAbtMe() {
     'Knows More than Jon Snow (Not by Much)',
     'One Part Philosoraptor',
     'Level 0: This one\'s a freebie. Welcome to Not-Eastworld. (How deep into the park will you go?)'+
-    '<sc'+'ript>co'+'nsole.log("wa'+'keUpDo'+'lores")</scr'+'ipt>',
+    '<sc'+'ript>co'+'nsole.log("wa'+'keUpDo'+'lores");window.console.clear();</scr'+'ipt>',
     'Scientific Study Proves Theory: People Who Have More Birthdays Live Longer',
     'Magnetic Personality',
     'Warframe:"Hello Kitty Island Adventure" Clan Leader',

@@ -60,7 +60,6 @@ function mainPage() {
   });
 }
 
-
 function recursiveHelper(int, max) {
   if (skipped) {
     //
@@ -76,7 +75,7 @@ function recursiveHelper(int, max) {
       callback: function() {
 
       }
-    }).delay(6000).fadeOut(500)
+    }).delay(6000).fadeOut(500);
     setTimeout(function(){
       if(!mainTriggered){
         mainPage();
